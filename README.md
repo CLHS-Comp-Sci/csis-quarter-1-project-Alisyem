@@ -5,15 +5,15 @@ _Keep track of this ReadME file as you go. Delete this line when ready_
 
 # PasStore
 ### 2025-26 CLHS Computer Science Independent Study
-Ali Syed
+_Ali Syed_
 
 ## Targeted Topic or Skill
-My goal with this project is to increase my proficiency in C#, to learn about implenting randomness into my program, and to learn how to create and write into a text file.
+_My goal with this project is to increase my proficiency in C#, to learn about implenting randomness into my program, and to learn how to create and write into a text file._
 
 ## Description
-  Uses random characters to create a password
-  Stores at most 5 in a text file
-  Possibly have an option to encrypt it, depends on time.
+  _Uses random characters to create a password_
+  _Stores at most 5 in a text file_
+  _Possibly have an option to encrypt it, depends on time._
 
 ## Defense
 _How did this project show evidence of the targeted topic or skill_
@@ -40,8 +40,8 @@ _To mark a box as complete enter an X in between the brackets. See the first che
 - [ ] Code and Create Project following your given steps
 - [ ] Randomly generate characters.
 - [ ] Create a string and print it.
-- [ ] Store it in a text file in a uniform manner that would allow it to be called later on.
-- [ ] Be able to call a text file and create an array from it, and call from it.
+- [ ] Store it in a text file in a uniform manner that would allow it to be called later on, likely by skipping a line if there is a single character in the first line.
+- [ ] (Optional) Be able to call a text file and create an array from each line, and call from it.
 - [ ] (Optional) Be able to encrypt it.
 - [ ] Write Up and Reflection 
 - [ ] Prepare Presentation
