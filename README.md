@@ -3,16 +3,17 @@
 Template to help fill and complete quarterly project
 _Keep track of this ReadME file as you go. Delete this line when ready_ 
 
-# Insert Project Name
+# PasStore
 ### 2025-26 CLHS Computer Science Independent Study
-_Insert Student Names_
+Ali Syed
 
 ## Targeted Topic or Skill
-_insert the specific topic and skill you focused on this quarter_
+My goal with this project is to increase my proficiency in C#, to learn about implenting randomness into my program, and to learn how to create and write into a text file.
 
 ## Description
-_Insert the project description here. What does it do?_ 
-_Project purpose including inputs/algorithm/outputs_
+  Uses random characters to create a password
+  Stores at most 5 in a text file
+  Possibly have an option to encrypt it, depends on time.
 
 ## Defense
 _How did this project show evidence of the targeted topic or skill_
@@ -33,15 +34,15 @@ _Feel free to add any checklist items below to best communicate with your group_
 
 _To mark a box as complete enter an X in between the brackets. See the first check for an example_
 - [X] Use github to keep track of code on weekly bases
-- [ ] Determine a proffesional IDE or applications/materials used
+- [x] Determine a profesional IDE or applications/materials used
 - [ ] Research and gather relevant background knowledge 
-- [ ] Create step by step process of checklist items needed to complete project
+- [X] Create step by step process of checklist items needed to complete project
 - [ ] Code and Create Project following your given steps
-- [ ] _insert your steps here_
-- [ ] _insert your steps here_
-- [ ] _insert your steps here_
-- [ ] _insert your steps here_
-- [ ] _insert your steps here_
+- [ ] Randomly generate characters.
+- [ ] Create a string and print it.
+- [ ] Store it in a text file in a uniform manner that would allow it to be called later on.
+- [ ] Be able to call a text file and create an array from it, and call from it.
+- [ ] (Optional) Be able to encrypt it.
 - [ ] Write Up and Reflection 
 - [ ] Prepare Presentation
 - [ ] Works Cited
