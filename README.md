@@ -20,6 +20,8 @@ _How did this project show evidence of the targeted topic or skill_
 
 ## Technical
 _List technical requirements including such as coding language, IDE used, required mechanical components or parts, libraries, or applications_
+IDE: _VisualStudio Community_
+Language: _C#_
 
 ## Use
 _Insert directions for how to use your project and any command line dependencies and arguments. Think of this section as more of a instruction manual_
@@ -38,7 +40,7 @@ _To mark a box as complete enter an X in between the brackets. See the first che
 - [ ] Research and gather relevant background knowledge 
 - [X] Create step by step process of checklist items needed to complete project
 - [ ] Code and Create Project following your given steps
-- [ ] Randomly generate characters.
+- [ ] Randomly generate a number of characters requested by the user.
 - [ ] Create a string and print it.
 - [ ] Store it in a text file in a uniform manner that would allow it to be called later on, likely by skipping a line if there is a single character in the first line.
 - [ ] (Optional) Be able to call a text file and create an array from each line, and call from it.
