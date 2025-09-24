@@ -11,9 +11,7 @@ _Ali Syed_
 _My goal with this project is to increase my proficiency in C#, to learn about implenting randomness into my program, and to learn how to create and write into a text file._
 
 ## Description
-  _Uses random characters to create a password_
-  _Stores at most 5 in a text file_
-  _Possibly have an option to encrypt it, depends on time._
+  _Uses random characters to create a password, stores at most 5 in a text file, and possibly have an option access it and to encrypt it, depending on the time._
 
 ## Defense
 _How did this project show evidence of the targeted topic or skill_
