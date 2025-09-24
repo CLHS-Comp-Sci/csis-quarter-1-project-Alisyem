@@ -18,7 +18,9 @@ _How did this project show evidence of the targeted topic or skill_
 
 ## Technical
 _List technical requirements including such as coding language, IDE used, required mechanical components or parts, libraries, or applications_
+
 IDE: _VisualStudio Community_
+
 Language: _C#_
 
 ## Use
