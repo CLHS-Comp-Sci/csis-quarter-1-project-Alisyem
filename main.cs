@@ -1,15 +1,15 @@
 using System;
+using System.IO;
 
-namespace MainClass
+public MainClass
 {
-    //not sure how to make classes yet, it's either struct or class though.
-    struct Main(string[] args)
+    class Main(string[] args)
     {
         Console.WriteLine("Welcome to PasStore! \nWhat would you like to do? \n[1] Create a password \n[2] Read a password");
         string input = Console.ReadLine();
         while (!input.equals("1") || !input.equals("2")){
             Console.WriteLine("Please input 1 or 2!");
-            Console.WriteLine("Welcome to PasStore! \nWhat would you like to do? \n[1] Create a password \n[2] Read a password");
+            Console.WriteLine("Welcome to PasStore! \nWhat would you like to do? \n[1] Create a password \n[2] Read a password list?");
             input = Console.ReadLine();
         }
         if(input.equals("1"))
@@ -18,29 +18,31 @@ namespace MainClass
             int pInput = Console.ReadLine();
             while(pInput > 16) 
             { 
-                Console.WriteLine("Sorry, we only support a maximum of 16 characters!");
+                Console.WriteLine("Sorry, we only support a maximum of 16 characters! Type 0 to exit.");
                 Console.WriteLine("How many characters should your password have? (Max of 16)"); 
                 pInput = Console.ReadLine();
+                if(pInput <= 0)
+                {
+                    break;
+                }
             }    
-            //Somehow call GenerablePwd, with the pInput
+            //Somehow call GenerablePass, with the pInput
+
         }
     }
 
-    //same here
-    struct GenerablePwd(string[] args)
+    public static string GenerablePass(string[] args)
     {
         //94 Characters
-        char[] characters = { 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', '[', ']', ';', '\'', ',', '.', '/', '\\', '~', '@', '#', '$', '%', '^', '&', '*', '(', ')', '+', '{', '}', '|', ':', '"', '<', '>', '?' };
+        char[] characters = {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', '[', ']', ';', '\'', ',', '.', '/', '\\', '~', '@', '#', '$', '%', '^', '&', '*', '(', ')', '+', '{', '}', '|', ':', '"', '<', '>', '?'};
         string password = "";
-        //not 100% sure how this stuff is written so I put them as a comment for now, will fix soon hopefully
-        //while(pInput > 0){
-        //Random rnd = new Random();
-        //int chara  = rnd.Next(0, 93);
-        //password += characters[chara];
-        //pInput -= 1;
-        //}
+        while(pInput > 0)
+        {
+            Random rnd = new Random();
+            int chara  = rnd.Next(0, 93);
+            password += characters[chara];
+            pInput -= 1;
+        }
         return password; 
     }
 }
-
-
